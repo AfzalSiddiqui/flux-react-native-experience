@@ -1,7 +1,7 @@
 {
   "name": "flux-react-native-experience",
   "version": "1.0.0",
-  "main": "App.tsx",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,21 +9,24 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@anthropic-flux/react-native-assets": "file:../flux-react-native-assets",
+    "@anthropic-flux/react-native-ds": "file:../flux-react-native-ds",
+    "@anthropic-flux/react-native-foundation": "file:../flux-react-native-foundation",
+    "@expo/vector-icons": "~14.0.4",
+    "@react-navigation/bottom-tabs": "^7.0.0",
+    "@react-navigation/native": "^7.0.0",
+    "@react-navigation/native-stack": "^7.0.0",
     "expo": "~52.0.0",
+    "expo-asset": "~11.0.5",
+    "expo-font": "~13.0.4",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
-    "react-native": "0.76.3",
-    "react-native-screens": "~4.4.0",
+    "react-native": "0.76.9",
     "react-native-safe-area-context": "4.12.0",
-    "@react-navigation/native": "^7.0.0",
-    "@react-navigation/bottom-tabs": "^7.0.0",
-    "@react-navigation/native-stack": "^7.0.0",
-    "@expo/vector-icons": "^14.0.0",
+    "react-native-screens": "~4.4.0",
     "react-native-svg": "15.8.0",
-    "react-native-webview": "13.12.5",
-    "@anthropic-flux/react-native-ds": "file:../flux-react-native-ds",
-    "@anthropic-flux/react-native-assets": "file:../flux-react-native-assets",
-    "@anthropic-flux/react-native-foundation": "file:../flux-react-native-foundation"
+    "react-native-url-polyfill": "^3.0.0",
+    "react-native-webview": "13.12.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
