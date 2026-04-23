@@ -9,9 +9,9 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@anthropic-flux/react-native-assets": "file:../flux-react-native-assets",
-    "@anthropic-flux/react-native-ds": "file:../flux-react-native-ds",
-    "@anthropic-flux/react-native-foundation": "file:../flux-react-native-foundation",
+    "@flux-ds/react-native-assets": "file:../flux-react-native-assets",
+    "@flux-ds/react-native-ds": "file:../flux-react-native-ds",
+    "@flux-ds/react-native-foundation": "file:../flux-react-native-foundation",
     "@expo/vector-icons": "~14.0.4",
     "@react-navigation/bottom-tabs": "^7.0.0",
     "@react-navigation/native": "^7.0.0",

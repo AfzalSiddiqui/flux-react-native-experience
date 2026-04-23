@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ScrollView, View, Text, Alert, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxTypography, useFluxColors } from '@anthropic-flux/react-native-ds';
-import { FluxButton } from '@anthropic-flux/react-native-foundation';
+import { FluxSpacing, FluxTypography, useFluxColors } from '@flux-ds/react-native-ds';
+import { FluxButton } from '@flux-ds/react-native-foundation';
 
 export function ButtonShowcase() {
   const colors = useFluxColors();

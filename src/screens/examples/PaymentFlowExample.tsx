@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { ScrollView, View, Pressable, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxRadius, useFluxColors } from '@anthropic-flux/react-native-ds';
+import { FluxSpacing, FluxRadius, useFluxColors } from '@flux-ds/react-native-ds';
 import {
   FluxText, FluxTextField, FluxButton, FluxCard,
   FluxIcon, FluxLoader, FluxAlertView,
-} from '@anthropic-flux/react-native-foundation';
+} from '@flux-ds/react-native-foundation';
 
 const recipients = [
   { name: 'Alice', icon: 'person-circle' },

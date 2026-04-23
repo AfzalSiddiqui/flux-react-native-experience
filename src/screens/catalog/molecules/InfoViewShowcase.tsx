@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxTypography, useFluxColors } from '@anthropic-flux/react-native-ds';
-import { FluxInfoView } from '@anthropic-flux/react-native-foundation';
+import { FluxSpacing, FluxTypography, useFluxColors } from '@flux-ds/react-native-ds';
+import { FluxInfoView } from '@flux-ds/react-native-foundation';
 
 export function InfoViewShowcase() {
   const colors = useFluxColors();

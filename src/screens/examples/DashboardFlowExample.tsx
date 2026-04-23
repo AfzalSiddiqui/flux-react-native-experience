@@ -1,9 +1,9 @@
 import React from 'react';
 import { ScrollView, View, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxShadow, FluxRadius, useFluxColors } from '@anthropic-flux/react-native-ds';
+import { FluxSpacing, FluxShadow, FluxRadius, useFluxColors } from '@flux-ds/react-native-ds';
 import {
   FluxText, FluxCard, FluxBoxGrid, FluxListRow, FluxDivider, FluxIcon,
-} from '@anthropic-flux/react-native-foundation';
+} from '@flux-ds/react-native-foundation';
 
 const quickActions = [
   { icon: { type: 'ionicon' as const, name: 'send' }, label: 'Send', color: '#007AFF' },

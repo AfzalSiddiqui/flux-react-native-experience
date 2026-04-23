@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { FluxSpacing, FluxRadius, FluxTypography, useFluxColors } from '@anthropic-flux/react-native-ds';
+import { FluxSpacing, FluxRadius, FluxTypography, useFluxColors } from '@flux-ds/react-native-ds';
 
 interface GuidelineItem {
   text: string;

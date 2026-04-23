@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxShadow, FluxRadius, FluxTypography, useFluxColors } from '@anthropic-flux/react-native-ds';
+import { FluxSpacing, FluxShadow, FluxRadius, FluxTypography, useFluxColors } from '@flux-ds/react-native-ds';
 
 const shadowKeys = ['small', 'medium', 'large'] as const;
 

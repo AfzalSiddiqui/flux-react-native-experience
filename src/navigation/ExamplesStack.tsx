@@ -1,6 +1,6 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { useFluxColors } from '@anthropic-flux/react-native-ds';
+import { useFluxColors } from '@flux-ds/react-native-ds';
 import { ExamplesListScreen } from '../screens/examples/ExamplesListScreen';
 import { LoginFlowExample } from '../screens/examples/LoginFlowExample';
 import { DashboardFlowExample } from '../screens/examples/DashboardFlowExample';

@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, ScrollView, StyleSheet } from 'react-native';
-import { FluxSpacing, useFluxColors } from '@anthropic-flux/react-native-ds';
-import { FluxListRow } from '@anthropic-flux/react-native-foundation';
+import { FluxSpacing, useFluxColors } from '@flux-ds/react-native-ds';
+import { FluxListRow } from '@flux-ds/react-native-foundation';
 
 export function ExamplesListScreen({ navigation }: any) {
   const colors = useFluxColors();

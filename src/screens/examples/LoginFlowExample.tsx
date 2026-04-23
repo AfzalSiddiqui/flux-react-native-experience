@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { View, ScrollView, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxRadius, useFluxColors } from '@anthropic-flux/react-native-ds';
+import { FluxSpacing, FluxRadius, useFluxColors } from '@flux-ds/react-native-ds';
 import {
   FluxText, FluxTextField, FluxButton, FluxCard,
   FluxAlertView, FluxLoader, FluxIcon,
-} from '@anthropic-flux/react-native-foundation';
+} from '@flux-ds/react-native-foundation';
 
 type LoginState = 'idle' | 'loading' | 'success' | 'error';
 

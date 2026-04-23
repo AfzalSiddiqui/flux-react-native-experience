@@ -1,8 +1,8 @@
 import React from 'react';
 import { ScrollView, View, Text, Pressable, Alert, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { FluxSpacing, FluxTypography, useFluxColors } from '@anthropic-flux/react-native-ds';
-import { FluxHeader } from '@anthropic-flux/react-native-foundation';
+import { FluxSpacing, FluxTypography, useFluxColors } from '@flux-ds/react-native-ds';
+import { FluxHeader } from '@flux-ds/react-native-foundation';
 
 export function HeaderShowcase() {
   const colors = useFluxColors();

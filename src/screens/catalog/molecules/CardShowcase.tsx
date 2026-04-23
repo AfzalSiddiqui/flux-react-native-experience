@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxShadow, FluxTypography, useFluxColors } from '@anthropic-flux/react-native-ds';
-import { FluxCard, FluxText } from '@anthropic-flux/react-native-foundation';
+import { FluxSpacing, FluxShadow, FluxTypography, useFluxColors } from '@flux-ds/react-native-ds';
+import { FluxCard, FluxText } from '@flux-ds/react-native-foundation';
 
 export function CardShowcase() {
   const colors = useFluxColors();

@@ -10,8 +10,8 @@ import {
   useFluxTheme,
   useFluxColors,
   type ColorSchemePreference,
-} from '@anthropic-flux/react-native-ds';
-import { FluxSegmentedControl, FluxCard, FluxButton, FluxText } from '@anthropic-flux/react-native-foundation';
+} from '@flux-ds/react-native-ds';
+import { FluxSegmentedControl, FluxCard, FluxButton, FluxText } from '@flux-ds/react-native-foundation';
 
 const schemeOptions: ColorSchemePreference[] = ['system', 'light', 'dark'];
 const brandOptions = ['Default', 'Dark Brand'];

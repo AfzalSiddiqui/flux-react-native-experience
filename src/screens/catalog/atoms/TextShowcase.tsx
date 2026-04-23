@@ -1,7 +1,7 @@
 import React from 'react';
 import { ScrollView, StyleSheet } from 'react-native';
-import { FluxSpacing, useFluxColors } from '@anthropic-flux/react-native-ds';
-import { FluxText } from '@anthropic-flux/react-native-foundation';
+import { FluxSpacing, useFluxColors } from '@flux-ds/react-native-ds';
+import { FluxText } from '@flux-ds/react-native-foundation';
 
 export function TextShowcase() {
   const colors = useFluxColors();

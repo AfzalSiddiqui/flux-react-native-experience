@@ -1,7 +1,7 @@
 import React from 'react';
 import { SectionList, View, Text, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxTypography, useFluxColors } from '@anthropic-flux/react-native-ds';
-import { FluxListRow } from '@anthropic-flux/react-native-foundation';
+import { FluxSpacing, FluxTypography, useFluxColors } from '@flux-ds/react-native-ds';
+import { FluxListRow } from '@flux-ds/react-native-foundation';
 
 interface CatalogItem {
   title: string;

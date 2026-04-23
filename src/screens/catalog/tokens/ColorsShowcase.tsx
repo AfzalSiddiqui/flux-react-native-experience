@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScrollView, View, Text, StyleSheet } from 'react-native';
-import { FluxSpacing, FluxTypography, useFluxColors, useFluxTheme } from '@anthropic-flux/react-native-ds';
+import { FluxSpacing, FluxTypography, useFluxColors, useFluxTheme } from '@flux-ds/react-native-ds';
 
 const colorKeys = [
   'primary', 'secondary', 'accent', 'background', 'surface',
